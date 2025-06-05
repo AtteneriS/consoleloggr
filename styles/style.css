@@ -22,8 +22,11 @@ p {
     line-height: 1.6em;
 }
 
-ul {
+main nav {
     text-align: center;
+}
+
+ul {
     list-style-type: none;
 }
 
