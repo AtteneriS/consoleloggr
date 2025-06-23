@@ -28,6 +28,7 @@ main nav {
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 a {
@@ -53,7 +54,7 @@ a:hover {
     background-color: #b4c29275;
 }
 
-.weekReflection>h3:nth-last-of-type(2n) {
+.articleThoughts>h3:nth-last-of-type(2n) {
     background-color: #4C061D;
     color: white;
     padding: 5px;
