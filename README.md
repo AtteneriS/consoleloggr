@@ -12,7 +12,8 @@ A dev journal where I document my journey as a developer. Built from scratch as 
 - [ ] MongoDB integration
 
 ## Weeks
-- [Week 1] (weeks/week01.html) – CSS & Dopamine
+- [Week 1] (weeks/week01.html) - CSS & Dopamine
+- [Week 2] (weeks/week02.html) - Box model & I'm already lost
 - ...
 
 ## License

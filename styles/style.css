@@ -54,7 +54,7 @@ a:hover {
     background-color: #b4c29275;
 }
 
-.articleThoughts>h3:nth-last-of-type(2n) {
+.articleThoughts>h3 {
     background-color: #4C061D;
     color: white;
     padding: 5px;
