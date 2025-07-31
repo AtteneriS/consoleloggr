@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Update 03: Flexbox Fun and Frustration</title>
+</head>
+
+<body class="post">
+    <header>
+        <h1>Update: Flexbox Fun and Frustration</h1>
+    </header>
+    <main>
+        <section>
+            <p>Week... I'm not sure. I probably need to stop calling these "Weeks [nº]" and start calling them
+                <strong>updates</strong> or something similar. It's better for me, so I don't feel as bad when more than
+                a week
+                passes before the next one, and for anyone who might read this in the future, so their expectations can
+                match reality.
+            </p>
+            <p>I mostly procrastinated, and time slipped through my hands again... <strong>surprise!</strong></p>
+            <p>Well, it's not like I've been completely static. I've been studying on and off for the past month, but
+                mostly it's been random, disconnected days. So, <strong>improvement, I guess?</strong> It's not real
+                consistency, but
+                I didn't have large stretches of days with no studying either.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>So, what did I <em>do</em>?</h2>
+            <p>I left off starting to <strong>dip my toes into Flexbox</strong>, and this month was a slow progression
+                of that. I
+                built a responsive nav (nothing fancy, really clunky, mostly to illustrate different screen sizes). I
+                also learned a tiny bit about Chrome DevTools; now I know I can see padding and margins, and set the
+                screen view from there.</p>
+            <img src="images/responsiveNav.gif"
+                alt="Animated GIF showing a responsive navigation bar changing with screen size">
+            <p>And then I built a pricing panel on my own. I realized Colt goes straight into telling you what to do and
+                explains very little about why he does what he does or his thought process. So I decided to build it on
+                my own before the "code-along." To say it was a challenge is an <strong>understatement</strong>.</p>
+            <p>First of all, Colt used a "CSS resetter" that I decided not to use (because I'm too cool for that,
+                obviously). So I looked up one that was fairly plain, one that I could sort of understand what it was
+                resetting and why, and used that instead.</p>
+            <p>Then I went into actual coding, grabbed the icons from the source code, and set up the basic HTML. I set
+                the background color and the main card color - cool, cool. First problem... <strong>how do I center
+                    this?</strong>
+            </p>
+            <p>
+                I know.
+                <br>
+                I know.
+                <br>
+                "How to center a div" is like the most overused programmer joke that isn't even relevant anymore because
+                with Flexbox it's <strong>SUPER easy</strong>. Well, I didn't know how to do it. To be honest, I did
+                think that when
+                dealing with a card like this, you were supposed to do something similar to the box model for the card,
+                and then for the elements inside, you'd use actual Flexbox. I don't know why, but I thought that made a
+                lot more sense.
+            </p>
+            <p>Anyway, card centered. What now? Make the elements sit side by side, simple. Flexbox. <strong>Now the
+                    disaster
+                    starts.</strong> Why do <em>they</em> overflow? Okay, I need to set a height for the images. Why do
+                they
+                still
+                overflow? Oh, I forgot it's the <strong>width</strong>, not the height. Now what? Why is the div of each
+                category not
+                respecting the dimensions? Why isn't the div expanding? Why does 'flex-grow' do nothing? Why does
+                'flex-basis' do nothing here...? And a lot of that: a lot of Googling, a lot of Stack Overflow,
+                cheatsheets, and a lot of AI asking: "Please explain this like I'm a 5-year-old foreigner who barely
+                speaks English, better yet explain it like I'm a 5-year-old alien!"</p>
+            <p>Anyway, in the end I got it, and it was pretty similar to Colt's. So I went to see his code-along, and it
+                turns out he does it "mobile first" and I didn't 🫠 BUT I did do it responsively, just like his! That's
+                something, isn't it? I mean, it was much simpler with mobile-first, but not <em>that</em> different from
+                what I
+                did. And (humble-bragging noob here) <strong>my full-screen CSS looks better, in my opinion.</strong>
+            </p>
+            <img src="images/pricingPanel.png"
+                alt="Screenshot of a pricing panel with a blue background and a white card featuring three pricing options">
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="../index.html">← Back to Index</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
